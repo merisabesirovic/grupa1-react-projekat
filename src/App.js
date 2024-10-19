@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <HomePage></HomePage>
+      <div></div>
     </div>
   );
 }
