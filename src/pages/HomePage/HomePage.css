@@ -1,0 +1,13 @@
+.smallText {
+  width: 450px;
+  padding: 30px;
+}
+.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.title {
+  margin: 20px;
+}
