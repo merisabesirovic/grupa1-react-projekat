@@ -5,7 +5,7 @@ import PersonsCard from "../../components/PersonsCard/PersonsCard";
 
 export default function AboutUs() {
   return (
-    <div>
+    <div className="aboutUs">
       {persons.map((person) => (
         <PersonsCard
           imageURL={person.imageURL}

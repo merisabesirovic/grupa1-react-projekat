@@ -1,0 +1,23 @@
+.card {
+  width: 220px;
+  height: 320px;
+  border: 2px solid grey;
+  box-shadow: 0px 3px 4px 0px;
+  border-radius: 5%;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: rgb(198, 192, 192);
+}
+
+.card img {
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card p {
+  padding: 4px;
+}
