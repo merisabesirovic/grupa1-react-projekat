@@ -1,0 +1,17 @@
+.fll_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 30px;
+}
+
+.current_photo {
+  width: 850px;
+  height: auto;
+  margin: 20px;
+}
+.aboutFLL {
+  padding: 50px;
+}

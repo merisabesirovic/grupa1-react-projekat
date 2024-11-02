@@ -1,8 +1,13 @@
 import React from "react";
+import "./AboutFLL.css";
+import fll_image from "../../images/fll.png";
+import photo from "../../images/centarNit.jpeg";
 
 export default function AboutFLL() {
   return (
-    <div>
+    <div className="fll_wrapper">
+      <h1>O FLL takmičenju - First Lego League</h1>
+
       <p className="aboutFLL">
         First LEGO League takmičenje nije samo događaj, već prava avantura koja
         nas vodi kroz svet nauke, tehnologije i timskog rada. Kroz svaki izazov,
@@ -18,6 +23,16 @@ export default function AboutFLL() {
         koji zajedno sa nama čine FLL takmičenje nezaboravnom avanturom učenja,
         rasta i prijateljstva!
       </p>
+      <img src={fll_image}></img>
+      <h2 className="subtitle">
+        Ovo je nasa grupa sada, zavrsili smo drugi ciklus - Javascript, HTML i
+        CSS.
+      </h2>
+      <p>
+        Vestine koje smo stekli tokom ova dva ciklusa, koristimo za kreiranje
+        ove stranice
+      </p>
+      <img className="current_photo" src={photo}></img>
     </div>
   );
 }
