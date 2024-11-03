@@ -23,7 +23,7 @@ export default function AboutFLL() {
         koji zajedno sa nama čine FLL takmičenje nezaboravnom avanturom učenja,
         rasta i prijateljstva!
       </p>
-      <img src={fll_image}></img>
+      <img src={fll_image} alt="Slika_FLL"></img>
       <h2 className="subtitle">
         Ovo je nasa grupa sada, zavrsili smo drugi ciklus - Javascript, HTML i
         CSS.
@@ -32,7 +32,7 @@ export default function AboutFLL() {
         Vestine koje smo stekli tokom ova dva ciklusa, koristimo za kreiranje
         ove stranice
       </p>
-      <img className="current_photo" src={photo}></img>
+      <img className="current_photo" src={photo} alt="trenutna"></img>
     </div>
   );
 }
