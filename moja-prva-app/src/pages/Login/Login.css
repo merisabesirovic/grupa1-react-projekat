@@ -1,0 +1,13 @@
+.login-container {
+  background-color: blue;
+  height: 100vh;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+}
